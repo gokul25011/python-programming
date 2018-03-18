@@ -1,10 +1,8 @@
-a=raw_input()
-if a.isdigit():
-	if(a<0):
-		print("negative")
-	elif(a>0):
-		print("positive")
-	else:
-		print("zero")
+n=raw_input()
+a=int(n)
+if(a<=1):
+	print("Negative")
+elif(a==0):
+	print("Zero")
 else:
-	print("invalid input")
+	print("Positive")
