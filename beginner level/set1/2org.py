@@ -2,8 +2,8 @@ n=raw_input()
 if n.isdigit():
 	a=int(n)
 	if(a%2==0):
-		print("even")
+		print("Even")
 	else:
-		print("odd")
+		print("Odd")
 else:
 	print("invalid input")
