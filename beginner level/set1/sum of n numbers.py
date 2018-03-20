@@ -1,4 +1,4 @@
-b=int(input())
-b=str(b)
-jagan=len(b)
-print(jagan)
+n=int(input())
+for i in range(1,n):
+  n=n+i
+  print(n)
