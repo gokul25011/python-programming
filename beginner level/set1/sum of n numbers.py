@@ -1,4 +1,4 @@
-n=int(input())
-for i in range(1,n):
-	sum=n+i
-	print(sum)
+b=int(input())
+b=str(b)
+u=len(b)
+print(u)
